@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+    <style>
+        body {
+          height: 550px;
+          width: 350px;
+          outline: none;
+          background-image: url('https://i.pinimg.com/originals/a7/75/2e/a7752e711a406ad27ec2fdce7e4a80a3.jpg');
+        }
+
+        button.crazy{
+          margin: 0 auto;
+          background-color: rgb(255, 226, 230); 
+          color: black;
+          font-size: 18px;
+          border-radius: 4px;
+          border: 1px solid black;
+          width: 100%;
+          font-family: Trebuchet MS;
+        }
+
+        button.normal{
+          margin: 0 auto;
+        }
+
+        h1 {
+          color:black;
+          font-size: 22px; 
+          text-align: center;
+        }
+
+        h2 {
+          color:black;
+          font-size: 11px; 
+          text-align: right;
+        }
+
+        p {
+          color:rgb(0, 22, 51);
+          font-size: 13px; 
+        }
+
+        
+
+
+      </style>
+
+      
+
+  <head>
+    <h1 style="color: black; font-family: Trebuchet MS; text-align: center; text-shadow: 3px 3px rgb(255, 226, 230); font-size: 30px;" class="mx-3 text-center display-3">Good <span id="time"></span>!</h1>
+    <script src='head.js'></script>
+    <p></p>
+  </head>
+  
+  <body>
+    <button class="crazy" id="back">&larr;	Back</button>
+    <p></p>
+    <button class="crazy" id="websites">Most Visited Websites</button>
+    <p></p>
+    <button class="crazy" id="weather">Weather Information</button>
+    <div id='mostVisited_div'></div>
+    <div id='weather_div'></div>
+    <script src='widgets.js'></script>
+  </body>
+</html>
